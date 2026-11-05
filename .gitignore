@@ -1,0 +1,10 @@
+# KBO data is licensed and partly personal data: never commit it
+data/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.zip
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/

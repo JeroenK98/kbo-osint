@@ -1,0 +1,8 @@
+duckdb>=1.1
+pandas>=2.2
+pyarrow>=15
+networkx>=3.2
+matplotlib>=3.8
+pyproj>=3.6
+jupyterlab>=4
+nbstripout>=0.7
