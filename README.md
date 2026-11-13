@@ -69,4 +69,4 @@ Use follows the *Licentie Open Data: gebruiksvoorwaarden*:
 - Directors and mandates are not in the open data, so group structures are only visible through names.
 - Address normalisation is rule-based; notebook 02 measures how often it fails against BeST.
 - BeST address units are registry units, not floor space: a single-unit building can be a large office.
-- The selection rule was checked on 15 addresses: a first impression, not a validation.
+- The selection rule was checked on 15 addresses. This is only a first impression, not a validation.
