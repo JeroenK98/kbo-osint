@@ -20,8 +20,6 @@ The project is a methods exercise in open-source analysis: source criticism, rec
 | 02 | `02_address_quality.ipynb` | Links KBO addresses to BeST in four stages, reports the match rate and why the rest fails, adds coordinates and a building-size proxy |
 | 03 | `03_concentrations_and_review.ipynb` | Profiles addresses by concentration level, applies one selection rule, produces a review sheet and summarises the manual check |
 
-**Not done, by choice:** a weighted risk score (concentrations are dominated by legitimate intermediaries, so one tested rule is more informative) and network clustering (naive linking produces one giant component of 16,464 companies). Both are under next steps.
-
 ## Setup
 
 ```bash
@@ -72,10 +70,3 @@ Use follows the *Licentie Open Data: gebruiksvoorwaarden*:
 - Address normalisation is rule-based; notebook 02 measures how often it fails against BeST.
 - BeST address units are registry units, not floor space: a single-unit building can be a large office.
 - The selection rule was checked on 15 addresses: a first impression, not a validation.
-
-## Next steps
-
-- Deterministic matching of street names with sub-municipality suffixes (`BREDABAAN CENTRUM` → `BREDABAAN`), using the suffix to choose between duplicate street names.
-- Excluding fund, project and joint-venture structures before selection (shared name stems, legal forms).
-- Network clustering with strict limits on shared contact details and without websites.
-- Tracking the daily update files to measure churn.
